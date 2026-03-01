@@ -5,3 +5,25 @@
     background-color: #000;
     color: #fff;
  }
+ 
+ .main{
+    display: flex;
+    height: 100vh;
+ }
+
+ .sidebar{
+    background-color: red;
+    width: 340px;
+ }
+
+ .main-contnet{
+    background-color: yellow;
+    flex: 1;
+ }
+
+ .music-player {
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
